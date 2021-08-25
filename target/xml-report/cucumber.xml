@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="56.612">
+    <testcase classname="Operations for Employee" name="US012_001" time="15.611">
+        <system-out>
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+Then Validate the message of Showing Items and column names in header.......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Operations for Employee" name="US012_002" time="7.019">
+        <system-out>
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+Then Employee should see  View option and edit button in it.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Operations for Employee" name="US012_003" time="6.19">
+        <system-out>
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+Then Employee should see Delete button......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Operations for Employee" name="US012_004" time="13.33">
+        <system-out>
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+And Click on edit button for a costumer.....................................passed
+When Change mphone email and disable zelle enrolment and click on save......passed
+Then Employee should see translation-not-found message......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Operations for Employee" name="US012_005" time="5.764">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+And Click on edit button for a costumer.....................................passed
+Then employee should see"Create a costumer" option..........................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at gmiBank_team22.step_Definitions.US_012_Employee_Steps.employee_should_see_Create_a_costumer_option(US_012_Employee_Steps.java:95)
+	at ✽.employee should see"Create a costumer" option(file:///Users/macbook/IdeaProjects/GMIBank_Team22/src/test/resources/features/US_012_Employee.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Operations for Employee" name="US012_006" time="8.333">
+        <system-out>
+            <![CDATA[And click user icon.........................................................passed
+And click Sign in...........................................................passed
+When user employee login....................................................passed
+When Click on delete button for a user......................................passed
+And See alert popup of Confirm delete operation and click on delete.........passed
+Then Employee should see translation-not-found message......................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
